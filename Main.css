@@ -1,3 +1,81 @@
-h1{
-    color: blue;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;                
+    justify-content: space-between; 
+    align-items: center;           
+    background-color: #fff;               
+    width: 1920px;                    
+    height: 84px;                   
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.Logo-container {
+    display: flex;
+    align-items: center;
+
+}
+.title{
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10.6px;
+    color: #FF5678;
+}
+.logo{
+    width: auto;
+    height: auto;
+    height: auto;
+    margin-left: 157px;
+}
+
+
+.nav-container {
+    display: flex; 
+    gap: 60px;                      
+    list-style: none;
+    padding-top: 8px;
+               
+    
+}
+.item {
+    margin: 0 5px;
+    padding-top: 20px;
+                      
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contact-button{
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #020E35;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;          
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+    margin-right: 150px;
+}
+.item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #FF5678;
+
+
 }
