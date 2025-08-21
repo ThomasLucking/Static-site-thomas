@@ -115,8 +115,6 @@ body {
     height: 508px;
     
     
-    
-    
 }
 .title-brand{
     font-family: "Merriweather", serif;
@@ -155,14 +153,19 @@ body {
 
 }
 .power-text-container{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+.Power-title{
+    display: flex;
+
 }
 .power-image-container{
     margin-top: 350px;
     margin-left: 150px;
-
 
 }
 
