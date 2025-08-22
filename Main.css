@@ -376,3 +376,55 @@ body {
     flex-direction: row;
     gap: 40px;
 }
+
+.Experiences-section-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 218px;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 60px;
+
+}
+.experience-text{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+.experience-title{
+    font-size: 54px;
+    font-family: "Merriweather", serif;
+    color: #020E35;
+    font-weight: 700;
+
+}
+.experience{
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+.button-experience{
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    background-color: #020E35;
+    color: white;
+    font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.Bar-position{
+    position: absolute;
+    width: 387px;
+    bottom: 427px;
+    z-index: -1;
+
+}
+
