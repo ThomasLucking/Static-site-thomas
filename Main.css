@@ -84,7 +84,6 @@ body {
     text-underline-offset: 8px
 }
 
-
 .Home-container {
     display: flex;
     align-items: center;
@@ -119,10 +118,10 @@ body {
 .title-container {
     width: 548px;
     height: 508px;
-    
-    
-    
-    
+
+
+
+
 }
 
 .title-brand {
@@ -164,17 +163,216 @@ body {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 
 }
-.power-text-container{
+
+.Powercontainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.power-image-container{
-    margin-top: 350px;
+    margin-top: 300px;
     margin-left: 150px;
+    margin-right: 150px;
+    gap: 511px;
+
+}
+
+.power-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
 
 
 }
 
+.full-title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Bar {
+    width: 400px;
+    height: 29px;
+    margin-left: 4px;
+
+}
+
+.Power-title {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 54px;
+    margin-bottom: -30px;
+    margin-top: 0px;
+    z-index: 2;
+}
+
+.Power-paragraph {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    color: #020E35;
+    font-size: 18px;
+    margin-top: 40px;
+
+}
+
+.Power-paragraph-2 {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    color: #020E35;
+    font-size: 18px;
+    margin-bottom: 60px;
 
 
+}
+
+.Learn-button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 63px;
+
+}
+
+.watch-videos {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Merriweather", serif;
+    color: #2B2B2B;
+
+}
+
+.circle-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    background-color: #FF5678;
+    border-radius: 50%;
+
+}
+
+.triangle img {
+    padding-left: 8px;
+    padding-top: 5px;
+
+}
+
+
+.Learn-more {
+    font-family: "Merriweather", serif;
+    background-color: #020E35;
+    border: none;
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0px 20px 40px 5px #00000040;
+
+}
+
+.ServicesContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.bircircle {
+    position: absolute;
+    left: -167px;
+    top: 290px;
+
+}
+
+.left-side {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-spacing {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 116px;
+
+}
+
+.section-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.section-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+
+}
+
+.Bar-1 {
+    width: 4px;
+    height: 34px;
+    margin-left: 4px;
+
+}
+
+.Bar2 {
+    position: absolute;
+    top: 236px;
+    width: 468px;
+    height: auto;
+    
+    
+
+}
+
+.Things-enjoy-title {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 54px;
+    margin-bottom: -30px;
+    margin-top: 0px;
+    z-index: 2;
+    margin-top: 200px;
+
+}
+
+.third-section-title {
+    font-family: "Merriweather", serif;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.third-section-paragraph {
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.third-section-spacing {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
