@@ -4,12 +4,12 @@ body {
 }
 
 .navbar {
-    display: flex;                
-    justify-content: space-between; 
-    align-items: center;           
-    background-color: #fff;               
-    width: 1920px;                    
-    height: 84px;                   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 1920px;
+    height: 84px;
     box-sizing: border-box;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 
@@ -21,14 +21,16 @@ body {
     align-items: center;
 
 }
-.title{
+
+.title {
     font-family: "Merriweather", serif;
     font-size: 28px;
     font-weight: bold;
     margin-left: 10.6px;
     color: #FF5678;
 }
-.logo{
+
+.logo {
     width: auto;
     height: auto;
     height: auto;
@@ -37,26 +39,28 @@ body {
 
 
 .nav-container {
-    display: flex; 
-    gap: 60px;                      
+    display: flex;
+    gap: 60px;
     list-style: none;
     padding-top: 8px;
-               
-    
+
+
 }
+
 .item {
     margin: 0 5px;
     padding-top: 20px;
-                      
+
 }
 
-.contact-container{
+.contact-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.contact-button{
+
+.contact-button {
     font-size: 16px;
     display: inline-flex;
     align-items: center;
@@ -64,12 +68,13 @@ body {
     background-color: #020E35;
     color: white;
     padding: 20px 30px;
-    text-decoration: none;          
+    text-decoration: none;
     font-weight: bold;
     font-family: "Merriweather", serif;
     margin-right: 150px;
 }
-.item1{
+
+.item1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,28 +85,29 @@ body {
 }
 
 
-.Home-container{
+.Home-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 150px;
     margin-left: 150px;
     margin-top: 300px;
-    
-    
-    
+
+
+
 }
 
-.homeimage-container{
+.homeimage-container {
     display: flex;
     align-items: center;
     justify-content: end;
-    
-    
-    
+
+
+
 
 }
-.homeimage{
+
+.homeimage {
     width: 592px;
     height: 508px;
     border-radius: 200px;
@@ -110,40 +116,44 @@ body {
 
 
 
-.title-container{
+.title-container {
     width: 548px;
     height: 508px;
-    
-    
-    
-    
+
+
+
+
 }
-.title-brand{
+
+.title-brand {
     font-family: "Merriweather", serif;
     font-size: 76px;
     font-weight: 900;
     color: #020E35;
     line-height: 110px;
     margin: 0;
-    
+
 
 }
+
 .Brands-details {
-    display: inline-block;       
+    display: inline-block;
     background-color: #FF5678;
     color: #fff;
-    padding: 0 1px;             
+    padding: 0 1px;
     line-height: 1;
 
 
 }
-.button-container{
+
+.button-container {
     display: flex;
     margin-top: 56px;
 
 
 }
-.button-style{
+
+.button-style {
     font-family: "Merriweather", serif;
     background-color: #020E35;
     border: none;
@@ -151,20 +161,117 @@ body {
     color: white;
     font-size: 18px;
     font-weight: 700;
-    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 
 }
-.power-text-container{
+
+.Powercontainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.power-image-container{
-    margin-top: 350px;
+    margin-top: 300px;
     margin-left: 150px;
+    margin-right: 150px;
+    gap: 511px;
+
+}
+
+.power-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
+    
+  
+}
+
+.full-title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Bar{
+    width: 400px;
+    height: 29px;
+    margin-left: 4px;
+
+}
+.Power-title {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 54px;
+    margin-bottom: -30px;
+    margin-top: 0px;
+    z-index: 2;
+}
+
+.Power-paragraph {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    color: #020E35;
+    font-size: 18px;
+    margin-top: 40px;
+
+}
+.Power-paragraph-2{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    color: #020E35;
+    font-size: 18px;
+    margin-bottom: 60px;
 
 
 }
 
+.Learn-button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 63px;
+
+}
+
+.watch-videos {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Merriweather", serif;
+    color: #2B2B2B;
+    
+}
+.circle-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+
+}
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    background-color: #FF5678;
+    border-radius: 50%;
+
+}
+.triangle img{
+    padding-left: 8px;
+    padding-top: 5px;
+    
+}
 
 
+.Learn-more {
+    font-family: "Merriweather", serif;
+    background-color: #020E35;
+    border: none;
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0px 20px 40px 5px #00000040;
+
+}
