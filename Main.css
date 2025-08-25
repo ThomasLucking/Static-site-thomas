@@ -341,8 +341,8 @@ body {
     top: 236px;
     width: 468px;
     height: auto;
-    
-    
+
+
 
 }
 
@@ -377,7 +377,7 @@ body {
     gap: 40px;
 }
 
-.Experiences-section-container{
+.Experiences-section-container {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -388,27 +388,31 @@ body {
     gap: 60px;
 
 }
-.experience-text{
+
+.experience-text {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    
+
 }
-.experience-title{
+
+.experience-title {
     font-size: 54px;
     font-family: "Merriweather", serif;
     color: #020E35;
     font-weight: 700;
 
 }
-.experience{
+
+.experience {
     font-family: "Merriweather", serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
 
 }
-.button-experience{
+
+.button-experience {
     font-family: "Merriweather", serif;
     font-weight: 700;
     background-color: #020E35;
@@ -420,24 +424,27 @@ body {
     padding-right: 40px;
 
 }
-.Bar-position{
+
+.Bar-position {
     position: absolute;
     width: 387px;
     bottom: 427px;
     z-index: -1;
 
 }
-.Meet-team-container{
+
+.Meet-team-container {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 200px;
-    
+
 
 }
-.Meet-team{
+
+.Meet-team {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-size: 54px;
@@ -445,23 +452,25 @@ body {
     margin-bottom: 104px;
 
 }
-.Bar4{
+
+.Bar4 {
     position: absolute;
     z-index: -1;
     top: 82px;
 
 }
-.people-container{
+
+.people-container {
     display: grid;
     grid-template-columns: repeat(3, max-content);
     justify-items: center;
     row-gap: 61px;
     column-gap: 32px;
-    
-    
+
+
 }
 
-.people-box{
+.people-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -473,27 +482,45 @@ body {
     border-radius: 50px;
     width: 519px;
     aspect-ratio: 1/1;
-    
+
 }
 
 
-.people-box:nth-child(2){
+.people-box:nth-child(2) {
+    position: relative;
+    bottom: 10px;
+    width: 539px;
+    height: 539px;
+    aspect-ratio: 1/1;
+    border: solid;
+    border-color: #B8B8B8;
+    border-width: 1px;
+    border-radius: 50px;
+    width: 519px;
+    aspect-ratio: 1/1;
+
+}
+
+
+.people-box:nth-child(2) {
     position: relative;
     bottom: 10px;
     width: 539px;
     height: 539px;
     aspect-ratio: 1/1;
     box-shadow: 0px 20px 40px 5px #00000026;
-    
+
 }
-.people-para{
+
+.people-para {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-size: 18px;
     color: #020E35;
     margin-bottom: 0px;
 }
-.people-title{
+
+.people-title {
     margin-bottom: 0px;
     font-family: "Merriweather", serif;
     font-weight: 700;
@@ -503,6 +530,101 @@ body {
 }
 
 
+.Previous-work-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.Previous-work-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Previous-text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    margin-bottom: 64px;
+
+
+}
+
+.Previous-title {
+    margin-bottom: 64px;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 54px;
+    color: #020E35;
+
+}
+
+.text-work {
+    margin-bottom: 0px;
+    font-family: "Merriweather", serif;
+    font-size: 24px;
+    font-weight: 700;
+
+
+}
+
+.Grid-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    column-gap: 32px;
+
+
+}
+
+.Grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(5, auto);
+    gap: 32px;
+}
+
+
+.Grid-element-3-container {
+    display: grid;
+    grid-template-columns: 519px;
+    grid-template-rows: 396.6px 396.6px;
+    row-gap: 32px;
+
+}
+
+.Grid-element-1:nth-child(1) {
+    grid-column: 1;
+    grid-row: 2;
+    width: 519px;
+    height: 672px;
+}
+
+.Grid-element-2:nth-child(2) {
+    grid-column: 1;
+    grid-row: 1;
+    width: 518px;
+    height: 825px;
+}
+
+.Grid-element-1:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+}
 
 
 
+.Grid-element-1,
+.Grid-element-2,
+.Grid-element-3 {
+    background-color: #FFEEF6;
+}
