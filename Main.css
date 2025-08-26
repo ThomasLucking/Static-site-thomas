@@ -1,8 +1,18 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Merriweather", serif;
 }
 
+button{
+    font-family: "Merriweather", serif;
+    background-color: #020E35;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -23,7 +33,6 @@ body {
 }
 
 .title {
-    font-family: "Merriweather", serif;
     font-size: 28px;
     font-weight: bold;
     margin-left: 10.6px;
@@ -36,28 +45,21 @@ body {
     height: auto;
     margin-left: 157px;
 }
-
-
 .nav-container {
     display: flex;
     gap: 60px;
     list-style: none;
     padding-top: 8px;
-
-
 }
-
 .item {
     margin: 0 5px;
     padding-top: 20px;
-
 }
 
 .contact-container {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .contact-button {
@@ -70,7 +72,6 @@ body {
     padding: 20px 30px;
     text-decoration: none;
     font-weight: bold;
-    font-family: "Merriweather", serif;
     margin-right: 150px;
 }
 
@@ -91,19 +92,12 @@ body {
     margin-right: 150px;
     margin-left: 150px;
     margin-top: 300px;
-
-
-
 }
 
 .homeimage-container {
     display: flex;
     align-items: center;
     justify-content: end;
-
-
-
-
 }
 
 .homeimage {
@@ -125,7 +119,6 @@ body {
 }
 
 .title-brand {
-    font-family: "Merriweather", serif;
     font-size: 76px;
     font-weight: 900;
     color: #020E35;
@@ -153,13 +146,8 @@ body {
 }
 
 .button-style {
-    font-family: "Merriweather", serif;
-    background-color: #020E35;
-    border: none;
     padding: 20px 30px;
     color: white;
-    font-size: 18px;
-    font-weight: 700;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 
 }
@@ -198,7 +186,6 @@ body {
 }
 
 .Power-title {
-    font-family: "Merriweather", serif;
     font-weight: 700;
     font-size: 54px;
     margin-bottom: -30px;
@@ -207,7 +194,6 @@ body {
 }
 
 .Power-paragraph {
-    font-family: "Merriweather", serif;
     font-weight: 400;
     color: #020E35;
     font-size: 18px;
@@ -216,7 +202,6 @@ body {
 }
 
 .Power-paragraph-2 {
-    font-family: "Merriweather", serif;
     font-weight: 400;
     color: #020E35;
     font-size: 18px;
@@ -235,7 +220,6 @@ body {
 .watch-videos {
     font-size: 18px;
     font-weight: 700;
-    font-family: "Merriweather", serif;
     color: #2B2B2B;
 
 }
@@ -267,7 +251,6 @@ body {
 
 
 .Learn-more {
-    font-family: "Merriweather", serif;
     background-color: #020E35;
     border: none;
     padding-top: 24px;
@@ -347,7 +330,6 @@ body {
 }
 
 .Things-enjoy-title {
-    font-family: "Merriweather", serif;
     font-weight: 700;
     font-size: 54px;
     margin-bottom: -30px;
@@ -358,14 +340,12 @@ body {
 }
 
 .third-section-title {
-    font-family: "Merriweather", serif;
     font-size: 28px;
     font-weight: 700;
 
 }
 
 .third-section-paragraph {
-    font-family: "Merriweather", serif;
     font-size: 18px;
     font-weight: 400;
 
@@ -398,14 +378,12 @@ body {
 
 .experience-title {
     font-size: 54px;
-    font-family: "Merriweather", serif;
     color: #020E35;
     font-weight: 700;
 
 }
 
 .experience {
-    font-family: "Merriweather", serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -413,11 +391,8 @@ body {
 }
 
 .button-experience {
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-    background-color: #020E35;
+    border: none;
     color: white;
-    font-size: 18px;
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 40px;
@@ -445,7 +420,6 @@ body {
 }
 
 .Meet-team {
-    font-family: "Merriweather", serif;
     font-weight: 700;
     font-size: 54px;
     color: #020E35;
@@ -513,7 +487,6 @@ body {
 }
 
 .people-para {
-    font-family: "Merriweather", serif;
     font-weight: 400;
     font-size: 18px;
     color: #020E35;
@@ -522,7 +495,6 @@ body {
 
 .people-title {
     margin-bottom: 0px;
-    font-family: "Merriweather", serif;
     font-weight: 700;
     font-size: 28px;
     color: #020E35;
@@ -561,7 +533,6 @@ body {
 
 .Previous-title {
     margin-bottom: 64px;
-    font-family: "Merriweather", serif;
     font-weight: 700;
     font-size: 54px;
     color: #020E35;
@@ -579,7 +550,6 @@ body {
 
 .text-work {
     margin-bottom: 0px;
-    font-family: "Merriweather", serif;
     font-size: 24px;
     font-weight: 700;
 
@@ -587,21 +557,17 @@ body {
 }
 .text-work-1{
     margin-bottom: 0px;
-    font-family: "Merriweather", serif;
     font-size: 24px;
     font-weight: 700;
     background-color: #FF5678;
     padding: 5px 5px;
     color: #fff;
-
-
 }
 
 .Grid-wrapper {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-
 }
 
 .Grid-element-1-container {
@@ -645,12 +611,7 @@ body {
 }
 
 .See-more-button{
-    font-family: "Merriweather", serif;
     width: 203px;
     height: 71px;
-    background-color: #020E35;
-    font-size: 18px;
-    color: #fff;
     margin-top: 60px;
-    
 }
