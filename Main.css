@@ -591,8 +591,9 @@ body {
     font-size: 24px;
     font-weight: 700;
     background-color: #FF5678;
-    background-size: 54px;
-    color: white;
+    padding: 5px 5px;
+    color: #fff;
+
 
 }
 
@@ -652,6 +653,4 @@ body {
     color: #fff;
     margin-top: 60px;
     
-    
-;
 }
