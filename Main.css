@@ -720,6 +720,14 @@ button {
     flex-direction: column;
    
 }
+.underline2{
+    background-image: linear-gradient(#ff5678, #ff5678);
+    background-repeat: no-repeat;
+    background-size: 2000px ;
+    background-position: 0em 0.66em;
+    padding-right: 2px;
+
+}
 .button-send{
     margin-top: 40px;
     width: 205px;
