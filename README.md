@@ -1,3 +1,3 @@
-# Static-site thomas
+# Zebb
 
-With html and css
+This is an integration project to create a website from a Figma Design to HTML and CSS code pixel perfect.
